@@ -343,7 +343,7 @@ def perform_KL(argv, netlist, output):
     inv_corex = [0] * nodes
     for i in range(nodes):
         for j in range(i, nodes):
-            if netlist[i][j] != 0 and netlist[i][j] != float('inf'):
+            if netlist[i][j] != 0 and netlist[i][j] != MAX:
                 noedges += 1
     D = [Commodity() for _ in range(noedges)]
     tempx = Commodity()
@@ -621,7 +621,7 @@ def flip(G, final_partition_core, k, t, nodes, local):
         address.colum[j] = temp_col[j]
 
     if local == 1:
-        cost_arr[1] = cost_local(temp_final_partition_core[1], G, nodes, k - t, k + t)
+        cost_arr[1] = cost_local(temp_final_partition_core[1], G, nodes, k - t, k + t - 1)
     else:
         cost_arr[1] = cost(temp_final_partition_core[1], G, nodes)
 
@@ -645,7 +645,7 @@ def flip(G, final_partition_core, k, t, nodes, local):
         address.colum[j] = temp_col[j]
 
     if local == 1:
-        cost_arr[2] = cost_local(temp_final_partition_core[2], G, nodes, k - t, k + t)
+        cost_arr[2] = cost_local(temp_final_partition_core[2], G, nodes, k - t, k + t - 1)
     else:
         cost_arr[2] = cost(temp_final_partition_core[2], G, nodes)
 

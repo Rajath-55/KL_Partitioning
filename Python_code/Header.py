@@ -211,7 +211,7 @@ def random_partition(core_id, n, indx,partition):
     random.seed(seed_value[indx])
 
     for i in range(n):
-        r = random.randint(0, 4294967296)
+        r = random.randint(0, 2147483647)
         # print(r)
         if r%2 == 0:
             if j < n // 2:

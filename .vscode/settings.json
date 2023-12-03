@@ -1,0 +1,7 @@
+{
+    "xdev-cscope.cscope.enable": true,
+    "xdev-cscope.cscope.command": "/router/bin/cscope",
+    "xdev-cscope.search.databases": [
+        "./CPP_Code/cscope.out"
+    ]
+}

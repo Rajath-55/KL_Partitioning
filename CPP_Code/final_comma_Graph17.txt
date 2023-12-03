@@ -1,0 +1,8 @@
+W,CC,Variance,Peak_Temp
+7340.780100,7340.780100
+W,CC,Variance,Peak_Temp
+7884.117000,7884.117000
+W,CC,Variance,Peak_Temp
+7584.584500,7584.584500
+W,CC,Variance,Peak_Temp
+7706.947400,7706.947400

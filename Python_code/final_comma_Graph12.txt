@@ -1,0 +1,12 @@
+W,CC,Variance,Peak_Temp
+416.0,416.0
+W,CC,Variance,Peak_Temp
+416.0,416.0
+W,CC,Variance,Peak_Temp
+416.0,416.0
+W,CC,Variance,Peak_Temp
+416.0,416.0
+W,CC,Variance,Peak_Temp
+96.0,96.0
+W,CC,Variance,Peak_Temp
+96.0,96.0

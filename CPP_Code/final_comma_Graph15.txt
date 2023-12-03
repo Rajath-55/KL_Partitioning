@@ -1,0 +1,2 @@
+W,CC,Variance,Peak_Temp
+88080.330000,88080.330000
